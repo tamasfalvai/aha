@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    text-align: center;
+
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    list-style-type: none;
+    transition: 1s ease;
+}
+
+header nav ul li:hover{
+    text-transform: uppercase;
+}
+
+header h1{
+    padding: 10px;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(5,1fr);
+}
+
+.main{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.main img{
+    width: 85%;
+    float: left;
+}
+
+.main2{
+    grid-column: 4/9;
+    grid-row: 1/2;
+}
+
+.main2 img{
+    width: 100%;
+    float: right;
+}
+
+
+.slidebar{
+    grid-column: 7/9;
+    grid-row: 2/6;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.slidebar li{
+    list-style-type: none;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.twin{
+    grid-column: 1/4;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+.twin img{
+    width: 100%;
+}
+
+
+.twin2{
+    grid-column: 4/7;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+.twin2 img{
+    width: 90%;
+}
+
+
+.alja{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-column: 1/7;
+    grid-row: 4/7;
+    padding: 10px;
+}
+
+.alja div:nth-child(1){
+    grid-column:1/4 ;
+    background: #000;
+    grid-row: 1/3;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+
+}
+
+
+.alja div:nth-child(1):hover{
+    color: white;
+}
+
+
+.alja div:nth-child(2){
+    grid-column: 4/6;
+    grid-row: 1/2;
+    background: #555555;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+
+.alja div:nth-child(2):hover{
+    color: white;
+}
+
+.alja div:nth-child(3){
+    grid-column:4/6 ;
+    grid-row: 2/5;
+    background: yellow;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+
+}
+
+
+.alja div:nth-child(3):hover{
+    color: white;
+}
+
+.alja div:nth-child(4){
+    grid-column: 1/4;
+    grid-row: 3/5;
+    background: #0ec664;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.alja div:nth-child(4):hover{
+    color: white;
+}
+
+
+
+.alja div:nth-child(5){
+    grid-column: 1/6;
+    grid-row: 5/6;
+    background: #132a1e;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+
+.alja div:nth-child(5):hover{
+    color: white;
+}
+
+
+footer{
+    text-align: center;
+    padding: 3rem;
+}
+
+img{
+    transition: 1s ease;
+}
+
+
+img:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 20px black;
+}
+
+h1, h2, h3, h4,h5,h6{
+    transition: 1s ease;
+}
+
+
+h1:hover, h2:hover, h3:hover, h4:hover,h5:hover,h6:hover{
+    background: #ebe9e9;
+}
+
+
+nav ul li{
+    transition: 1s ease;
+}
+
+nav ul li:hover{
+    cursor: pointer;
+    color: #3f4f46;
+}
